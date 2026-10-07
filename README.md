@@ -20,3 +20,14 @@
 ## 准备原书
 
 原书不进仓库。把 epub 放到本地后运行 `scripts/extract_epub.py`（用法见 CLAUDE.md），会把书按章拆成文本，放到 `sources/`（已被 gitignore）。
+
+## 生成 EPUB
+
+成书在 [`dist/`](dist/)。内容修改后重新生成：
+
+```
+npm install --prefix <某个目录> mathjax-full@3     # 只需一次
+MJ_DIR=<那个目录> python3 -I scripts/epub/build_epub.py
+```
+
+需要 pandoc 3.x、node 和 Playwright/Chromium。简单公式会转成文字，复杂公式由 MathJax 渲染成图片。封面是 `assets/cover.jpg`。

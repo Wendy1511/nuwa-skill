@@ -23,7 +23,7 @@
 
 ## 生成 EPUB
 
-成书在 [`dist/`](dist/)。内容修改后重新生成：
+成书在 [`dist/`](dist/)（EPUB 和单文件 Markdown，后者用 `python3 -I scripts/epub/build_md.py` 生成）。内容修改后重新生成：
 
 ```
 npm install --prefix <某个目录> mathjax-full@3     # 只需一次

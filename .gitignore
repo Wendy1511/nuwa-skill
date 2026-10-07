@@ -1,0 +1,5 @@
+*.epub
+*.pdf
+.DS_Store
+sources/
+build/

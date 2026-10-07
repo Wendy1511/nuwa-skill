@@ -1,0 +1,21 @@
+body { font-family: serif; line-height: 1.75; margin: 0 1em; text-align: justify; }
+h1 { font-size: 1.6em; margin: 1.4em 0 0.8em; border-bottom: 2px solid #999; padding-bottom: .3em; }
+h2 { font-size: 1.35em; margin: 1.4em 0 0.8em; border-bottom: 1px solid #bbb; padding-bottom: .25em; }
+h3 { font-size: 1.15em; margin: 1.6em 0 0.6em; }
+h4 { font-size: 1.05em; margin: 1.3em 0 0.5em; color: #333; }
+h5 { font-size: 1em; margin: 1.1em 0 0.4em; color: #444; }
+p { margin: 0.6em 0; }
+ul, ol { margin: 0.4em 0 0.7em; padding-left: 1.4em; }
+li { margin: 0.25em 0; }
+blockquote { margin: 0.9em 0; padding: 0.5em 0.9em; border-left: 4px solid #7a8fb3; background: #f3f5f9; color: #333; }
+blockquote p { margin: 0.35em 0; }
+table { border-collapse: collapse; margin: 0.9em 0; font-size: 0.92em; width: 100%; }
+th, td { border: 1px solid #c8c8c8; padding: 0.3em 0.5em; vertical-align: top; }
+th { background: #eef1f6; }
+pre { background: #f6f6f6; padding: 0.6em; font-size: 0.85em; line-height: 1.35; white-space: pre-wrap; }
+code { font-family: monospace; }
+.m { font-family: "Times New Roman", serif; white-space: nowrap; }
+.dm { display: block; text-align: center; margin: 0.6em 0; white-space: normal; }
+img.imath { display: inline; }
+img.dmath { display: block; margin: 0.7em auto; max-width: 100%; }
+nav#toc ol { list-style: none; }

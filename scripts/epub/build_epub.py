@@ -22,10 +22,10 @@ from texsimple import to_html  # noqa: E402
 
 BUILD = os.path.join(ROOT, 'build')
 MATH_DIR = os.path.join(BUILD, 'math')
-OUT = os.path.join(ROOT, 'dist', '估值：它值多少钱，价格贵不贵（v29）.epub')
+OUT = os.path.join(ROOT, 'dist', '投资体系 v29 · 第5章 估值体系.epub')
 
-TITLE = '估值：它值多少钱，价格贵不贵'
-SUBTITLE = '第 5 章 · 框架 v29 · 讲义版'
+TITLE = '投资体系 v29 · 第5章 估值体系'
+SUBTITLE = '估值：它值多少钱，价格贵不贵（讲义版）'
 
 
 def node_key(path):

@@ -15,7 +15,7 @@ def main():
     head = f'# {TITLE}\n\n**{SUBTITLE}**\n\n## 目录\n\n' + '\n'.join(toc) + '\n\n---\n\n'
     # 正文里各章标题从 # 起，整体降一级，让书名独占一级标题
     body = '\n'.join(('#' + l if l.startswith('#') and not l.startswith('#######') else l) for l in assemble().splitlines())
-    out = os.path.join(ROOT, 'dist', f'{TITLE}（v29）.md')
+    out = os.path.join(ROOT, 'dist', f'{TITLE}.md')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, 'w', encoding='utf-8').write(head + body + '\n')
     print('wrote', out, os.path.getsize(out) // 1024, 'KB')
